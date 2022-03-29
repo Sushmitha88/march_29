@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let o1 = {
+        name: "smit",
+        roll: 63,
+        place: "delhi"
+    }
+let o2 = {
+        name: "smit",
+        roll: 63,
+        place: "delhi"
+    }
+        for (key in o2) {
+            if (o1[key] !== o2[key]) {
+               console.log("false");
+               break;
+            }
+        
+            
+                console.log("true");
+        }
+    </script>
+</body>
+</html>
